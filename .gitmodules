@@ -1,3 +1,6 @@
 [submodule "blog-personal/themes/papermod"]
 	path = blog-personal/themes/papermod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "blog-personal/themes/clarity"]
+	path = blog-personal/themes/clarity
+	url = https://github.com/chipzoller/hugo-clarity.git
