@@ -1,0 +1,19 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Hugo-generated output
+**/public/
+**/resources/_gen/
+**/.hugo_build.lock
+
+# Node and static site tooling
+**/node_modules/
+**/.cache/
+**/dist/
+
+# Editor/OS cruft
+*~
+*.swp
+*.swo
+.DS_Store
