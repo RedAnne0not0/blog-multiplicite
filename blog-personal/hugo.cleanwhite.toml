@@ -1,27 +1,25 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "My Personal Blog"
-theme = "clarity"
-
-[permalinks]
-  posts = "/posts/:slug/"
-
-[pagination]
-  pagerSize = 10
+theme = "cleanwhite"
 
 [params]
+  header_image = "img/header_img.jpg"
+  SEOTitle = "My Personal Blog"
   description = "Random thoughts, travel stories, and more."
-  dateFormat = "2006-01-02"
-  toc = true
-  readingTime = true
-  postMeta = ["date", "readingTime"]
-  enableSearch = true
   author = "Deirdre Anne Hendrick"
-
-[markup.goldmark.renderer]
-  unsafe = true
+  slogan = "Clean writing, with a view."
+  avatar = "img/avatar.jpg"
+  github = ""
+  twitter = ""
+  email = "you@example.com"
+  enableToc = true
+  enableComments = false
+  showAllPostsOnHomePage = true
+  selfHosted = true
 
 [menu]
+
   [[menu.main]]
     name = "Home"
     url = "/"
