@@ -1,36 +1,28 @@
-# Hugo Blogs Monorepo
+# Multiplicité Hugo Blog
 
-This repository houses all self-hosted Hugo blogs, organized for flexible content creation, publishing, and future automation.
+This repository houses multiplicite.net, a self-hosted Hugo blog, organized for flexible content creation, publishing, and future automation.
 
 ## Structure
 
 blogs/
 ├── blog-personal/       # Personal blog (general writing, essays, etc.)
 ├── blog-multiplicite/   # Multiplicité blog (specialized content)
-└── .gitignore           # Monorepo-level Git exclusions
 
 ## Usage
 
-Each blog functions independently as a Hugo site. Content is drafted in [Logseq](../logseq/knowledge-graph/pages/) and then staged here when ready for editing or publishing.
+Content is drafted in [Logseq](../logseq/knowledge-graph/pages/) and then staged here when ready for editing or publishing.
 
 ## TODOs
 
 - [ ] Add build/deploy automation.
 - [ ] Define theme customizations.
 - [ ] Link to hosting or publishing setup.
-
-# Multiplicité Blog
-
-This Hugo blog features specialized or thematic writing.
+- [ ] Add initial post templates.
+- [ ] Define taxonomy (e.g., topics, keywords).
+- [ ] Customize navigation/layout.
 
 ## Workflow
 
 - **Drafts** are managed in Logseq under `pages/blog-multiplicite/`.
-- **Final posts** are prepared and edited here for publishing.
+- **Final posts** are prepared and edited here in Neovim for publishing.
 - **Theme**: PaperMod (unless changed)
-
-## TODOs
-
-- [ ] Add initial post templates.
-- [ ] Define taxonomy (e.g., topics, keywords).
-- [ ] Customize navigation/layout.
